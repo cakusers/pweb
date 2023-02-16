@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course | Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        * {
+            font-family: 'Cabin', sans-serif;
+            letter-spacing: 1px;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        a, a:hover, a:focus, a:active {
+            text-decoration: none;
+            color: inherit;
+       }
+
+        body {
+            background-color: #FDE5FF;
+        }
+
+
+        ul, li {
+            list-style: none;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 7.5rem;
+            height: 3rem;
+            border-bottom: solid 1px black;
+        }
+
+        .logo {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 48px;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .option a:hover:not(a:last-child) {
+            box-sizing: border-box;
+            border-bottom: solid 2px black;
+        }
+
+        .option a:nth-child(3) {
+            padding: 0.5rem 1.5rem;
+            border: dashed 1.5px black;
+            border-radius: 4px;
+        }
+
+        .option a:last-child {
+            padding: 0.5rem 1.5rem;
+            border: solid 1.5px black;
+            border-radius: 4px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .option a:hover:last-child {
+            transform: translate(-2px, -2px);
+            box-shadow: 5px 5px rgb(41, 40, 44);
+        }
+
+        .option a:focus:last-child {
+            transform: translate(0, 0);
+            box-shadow: 0 0 rgb(41, 40, 44);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- =============================================================== --- NavBar -->
+    <nav>
+        <a href="" class="logo">
+            <img src="assets\img\icon-logo.png" alt="icon">
+            <h3>SOFI</h3>
+        </a>
+        
+        <div class="option">
+            <a href=""><h4>Product</h4></a>
+            <a href=""><h4>About</h4></a>
+            <a href=""><h4>Sign in</h4></a>
+            <a href=""><h4>Log in</h4></a>
+        </div>
+    </nav>
+    
+    
+    <!-- =============================================================== --- Body -->
+    <div class="body-container">
+
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
